@@ -74,29 +74,31 @@ public class Script {
 
 	}
 
-//	@When("I am on clear account chat room")
-//	def I_am_on_account_chat_room() {
-//		this.I_click('Home/Button_Chat')
-//		this.I_click('Search/Button_SearchContact')
-//		this.I_type_on('automation test', 'Search/TextBox_SearchContact')
-//		this.I_click('Search/List_Contact-1st')
-//		//this.I_should_see('ChatRoom/Button_VoiceCall')
-//		this.I_click('Home/Button_MoreOptions')
-//		this.I_click('ChatRoom/List_ClearConversation')
-//		Mobile.delay(2)
-//	}
-//
-//	@When("I am on clear group chat room")
-//	def I_am_on_group_chat_room() {
-//		this.I_click('Home/Button_Search')
-//		this.I_type_on('automation test', 'Search/TextBox_Search')
-//		this.I_hide_keyboard()
-//		this.I_click('Search/List_ListOfGroup-1st')
-//		//this.I_should_see('ChatRoom/Text_TotalMembers')
-//		this.I_click('Home/Button_MoreOptions')
-//		this.I_click('ChatRoom/List_ClearConversation')
-//		Mobile.delay(2)
-//	}
+	////////////////////////////////////////////////////
+
+	//	@When("I am on clear account chat room")
+	//	def I_am_on_account_chat_room() {
+	//		this.I_click('Home/Button_Chat')
+	//		this.I_click('Search/Button_SearchContact')
+	//		this.I_type_on('automation test', 'Search/TextBox_SearchContact')
+	//		this.I_click('Search/List_Contact-1st')
+	//		//this.I_should_see('ChatRoom/Button_VoiceCall')
+	//		this.I_click('Home/Button_MoreOptions')
+	//		this.I_click('ChatRoom/List_ClearConversation')
+	//		Mobile.delay(2)
+	//	}
+	//
+	//	@When("I am on clear group chat room")
+	//	def I_am_on_group_chat_room() {
+	//		this.I_click('Home/Button_Search')
+	//		this.I_type_on('automation test', 'Search/TextBox_Search')
+	//		this.I_hide_keyboard()
+	//		this.I_click('Search/List_ListOfGroup-1st')
+	//		//this.I_should_see('ChatRoom/Text_TotalMembers')
+	//		this.I_click('Home/Button_MoreOptions')
+	//		this.I_click('ChatRoom/List_ClearConversation')
+	//		Mobile.delay(2)
+	//	}
 
 	@When("I click '(.*)'")
 	def I_click(String elme) {
@@ -288,5 +290,5 @@ public class Script {
 
 
 
-	
+
 }
